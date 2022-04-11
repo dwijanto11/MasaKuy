@@ -8,4 +8,4 @@ Demo Aplikasi dapat dilihat pada video di bawah ini :
 
 [![Masakuy-Android App](https://img.youtube.com/vi/teV3aqmDZdo/0.jpg)](https://www.youtube.com/watch?v=teV3aqmDZdo)
 
-Anda dapat mencoba aplikasi tersebut dengan mengunduhnya di link ini https://github.com/dwijanto11/MasaKuy-An-Android-App-Kotlin/blob/master/app-release.apk
+Anda dapat mencoba aplikasi tersebut dengan mengunduhnya [disini](https://github.com/dwijanto11/MasaKuy-An-Android-App-Kotlin/blob/master/app-release.apk)
