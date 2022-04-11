@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.codenesia.masakuy.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_detail"
+            app:destination="@id/navigation_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_detail"
+        android:name="com.codenesia.masakuy.ui.detail.DetailFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="key"
+            app:argType="string" />
+        <argument
+            android:name="thumb"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_saved"
+        android:name="com.codenesia.masakuy.ui.savedrecipe.SavedRecipeFragment"
+        android:label="@string/title_saved"
+        tools:layout="@layout/fragment_saved_recipe">
+        <action
+            android:id="@+id/action_navigation_saved_to_navigation_detail"
+            app:destination="@id/navigation_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.codenesia.masakuy.ui.setting.SettingFragment"
+        android:label="@string/title_setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

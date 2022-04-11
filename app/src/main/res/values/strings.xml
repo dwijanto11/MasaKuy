@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MasaKuy</string>
+    <string name="get_started">Get Started</string>
+    <string name="welcome_desc">Temukan Resep Makanan Terpopuler dan Mulai Masak Sekarang</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_saved">Saved</string>
+    <string name="title_setting">Setting</string>
+</resources>
