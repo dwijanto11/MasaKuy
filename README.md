@@ -1,1 +1,2 @@
-# MasaKuy
+# MasaKuy - An Android App (Kotlin)
+
